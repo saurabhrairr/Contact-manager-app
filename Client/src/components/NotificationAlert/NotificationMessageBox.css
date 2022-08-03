@@ -1,0 +1,61 @@
+.modalBackground {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(66, 64, 64, 0.38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  /* border: 1px solid black; */
+}
+
+.notification-box-modalContainer {
+  width: calc(345px * var(--widthmultiplier));
+  height: calc(318px * var(--heightmultiplier));
+
+  border-radius: calc(12px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+  padding-top: calc(50px * var(--heightmultiplier));
+  padding-bottom: calc(50px * var(--heightmultiplier));
+}
+
+
+.import-contact-box-img {
+  /* width: calc(45px * var(--widthmultiplier)); */
+  height: calc(45px * var(--widthmultiplier));
+}
+
+.notification-box-message{
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25%;
+  text-align: center;
+  color: #2DA5FC;
+  opacity: 0.8;
+  margin-left: calc(50px * var(--widthmultiplier));
+  margin-right: calc(50px * var(--widthmultiplier));
+
+}
+
+.notification-box-operation-name {
+  height: fit-content;
+  width: fit-content;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32%;
+
+  color: #1F2633;
+
+}

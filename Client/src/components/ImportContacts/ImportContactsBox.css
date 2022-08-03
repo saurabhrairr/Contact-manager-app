@@ -1,0 +1,95 @@
+.modalBackground {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(66, 64, 64, 0.38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  /* border: 1px solid black; */
+}
+
+
+
+.modalContainer {
+  width: calc(345px * var(--widthmultiplier));
+  height: calc(318px * var(--heightmultiplier));
+
+  border-radius: calc(12px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  padding-top: calc(50px * var(--heightmultiplier));
+  padding-bottom: calc(50px * var(--heightmultiplier));
+}
+
+
+.import-contact-box-img {
+  /* width: calc(45px * var(--widthmultiplier)); */
+  height: calc(45px * var(--widthmultiplier));
+}
+
+.import-contact-box-msg {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25%;
+  text-align: center;
+  color: #2DA5FC;
+  opacity: 0.8;
+  margin-left: calc(50px * var(--widthmultiplier));
+  margin-right: calc(50px * var(--widthmultiplier));
+
+}
+
+#cancelBtn {
+  width: calc(124px * var(--widthmultiplier));
+  height: fit-content;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24%;
+  color: #FFFFFF;
+  background: #2DA5FC;
+  border-radius: calc(5px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+  z-index: 12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cancelBtn:hover{
+cursor: pointer;
+}
+
+.import-contact-box-file-input {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: calc(345px * var(--widthmultiplier));
+  height: calc(318px * var(--heightmultiplier));
+  left: calc(695px * var(--widthmultiplier));
+  top: calc(398px * var(--heightmultiplier));
+  border: 2px solid black;
+  opacity: 0;
+  z-index: 11;
+}
+
+.import-contact-box-import-file-name {
+  height: fit-content;
+  width: fit-content;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32%;
+
+  color: #1F2633;
+
+}

@@ -1,0 +1,1261 @@
+body {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    /* --heightmultiplier : 0.5;
+    --widthmultiplier :0.5; */
+}
+
+#total-contacts-page-container {
+    position: relative;
+    display: flex;
+    /* border: 2px solid black; */
+    /* height: calc(1117px * var(--heightmultiplier));
+    width: calc(1727px * var(--widthmultiplier)); */
+    margin: 0px;
+    padding: 0px;
+}
+
+.total-contacts-page-left-menu {
+    /* position: relative; */
+    /* background: #CEF3FF;
+    height: 100%;
+    width: 13.4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+     border: 2px solid black; */
+    position: relative;
+    /* width: calc(231px * var(--widthmultiplier));
+    height: calc(1117px * var(--heightmultiplier)); */
+    width: 13.376%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: #CEF3FF;
+
+}
+
+.total-contacts-page-left-menu-logo {
+    /* position: absolute; */
+    /* width: 35.94%;
+    height: 5.461%;
+    margin-left: 21.645%;
+    margin-top: 15.663%;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40%;
+    line-height: 61%;
+    color: #0884FF; */
+    /* border: 2px solid black; */
+    position: absolute;
+    width: calc(83px * var(--widthmultiplier));
+    height: calc(61px * var(--heightmultiplier));
+    left: calc(50px * var(--widthmultiplier));
+    top: calc(13px * var(--heightmultiplier));
+
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40%;
+    line-height: 61%;
+    /* identical to box height */
+    color: #0884FF;
+
+}
+
+/* .total-contacts-page-left-menu-dashboard-div {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+
+} */
+
+.total-contacts-page-left-menu-dashboard-p {
+    /* position: absolute; */
+    /* width: 36.364%;
+    height: 2.42%;
+    margin-left: 13.1%;
+    margin-top: 12.623%;
+
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18%;
+    line-height: 2.42%;
+    display: flex;
+    align-items: center;
+
+    color: #181818; */
+    position: absolute;
+    width: calc(84px * var(--widthmultiplier));
+    height: calc(27px * var(--heightmultiplier));
+    left: calc(72px * var(--widthmultiplier));
+    top: calc(141px * var(--heightmultiplier));
+
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18%;
+    line-height: 27%;
+    display: flex;
+    align-items: center;
+
+    color: #181818;
+
+}
+
+.total-contacts-page-left-menu-dashboard-img {
+    /* position: absolute;
+    margin-left: 19%;
+
+    margin-top: 13.0%;
+    bottom: 8.33%;
+
+    height: 1.6115%;
+    width: 7.8%;
+    border: 2px solid black;
+    background: #181818; */
+    position: absolute;
+    left: calc(43px * var(--widthmultiplier));
+    /* right: 12.5%; */
+    top: calc(146px * var(--heightmultiplier));
+    /* bottom: 8.33%; */
+    height: calc(18px * var(--heightmultiplier));
+    width: calc(18px * var(--widthmultiplier));
+
+}
+
+.total-contacts-page-left-menu-totalcontacts-div {
+    /* position: absolute;
+    width: 79.2208%;
+    height: 5.82%;
+    left: 10.39%;
+    top: 18.174%;
+
+    background: #2DA5FC;
+    border-radius: 6px; */
+    position: relative;
+    width: calc(183px * var(--widthmultiplier));
+    height: calc(65px * var(--heightmultiplier));
+    left: calc(24px * var(--widthmultiplier));
+    top: calc(203px * var(--heightmultiplier));
+
+    background: #2DA5FC;
+    border-radius: calc(6px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-contacts-page-left-menu-totalcontacts-div:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px calc(20px * var(--widthmultiplier)) rgba(0, 0, 0, 1);
+}
+
+.total-contacts-page-left-menu-totalcontacts-img {
+
+    height: calc(24px * var(--heightmultiplier));
+    width: calc(20px * var(--widthmultiplier));
+    margin-right: calc(8px * var(--widthmultiplier));
+}
+
+.total-contacts-page-left-menu-totalcontacts-name {
+
+
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20%;
+    /* line-height: 27%; */
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+    margin-right: calc(15px * var(--widthmultiplier));
+    width: fit-content;
+}
+
+.total-contacts-page-left-menu-totalcontacts-pipe-img {
+    /* position: absolute; */
+    width: 0px;
+    height: calc(32px * var(--heightmultiplier));
+    /* left: 191px;
+top: 220px; */
+
+    border: 2px solid #FFFFFF;
+    border-radius: calc(5px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+}
+
+.total-contacts-page-left-menu-logout {
+    position: absolute;
+    left: calc(37.2px * var(--widthmultiplier));
+    top: calc(1047px * var(--heightmultiplier));
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.total-contacts-page-left-menu-logout-img {
+    height: calc(18.75px * var(--heightmultiplier));
+    width: calc(18.75px * var(--widthmultiplier));
+    margin-right: calc(11.12px * var(--widthmultiplier));
+}
+
+.total-contacts-page-left-menu-logout-name {
+    height: calc(27px * var(--heightmultiplier));
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18%;
+    /* line-height: 27px; */
+
+    color: #000000;
+
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+}
+
+.total-contacts-page-left-menu-logout:hover {
+    cursor: pointer;
+}
+
+.total-contacts-page-all-right-container-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 86.624%;
+    height: 100%;
+}
+
+.total-contacts-page-all-contacts-container-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* height: 91.2265%; */
+    height: 91.5%;
+    /* left: calc(236px * var(--widthmultiplier)); */
+    top: 0px;
+    /* border: 1px solid black; */
+}
+
+.total-contacts-page-all-footer-container-div {
+    width: 100%;
+    height: 8.5%;
+    /* border: 1px solid black; */
+}
+
+.total-contacts-page-searchbar-menu-div {
+    /* position: relative; */
+    /* width: calc(100% - 13.376); */
+    /* width: 86.624%; */
+    width: 100%;
+    /* height: calc(98px * var(--heightmultiplier)); */
+    /* height: 8.7735%; */
+    height: 9.6%;
+    /* left: calc(236px * var(--widthmultiplier));
+    top: 0px; */
+
+    background: #FFFFFF;
+    /* border: 1px solid black; */
+    border-bottom: 4px solid #EAEAEA;
+    border-bottom-width: calc(4px * var(--heightmultiplier));
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.total-contacts-page-searchbar-form {
+    width: 36.88%;
+    height: 51.03%;
+    margin-left: 29.125%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    background: #F2F2F2;
+    border-radius: calc(6px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+}
+
+.total-contacts-page-searchbar-img {
+    /* height: calc(18px * var(--heightmultiplier)); */
+    width: calc(18px * var(--widthmultiplier));
+    height: calc(18px * var(--widthmultiplier));
+    margin-left: 3.64%;
+}
+
+.total-contacts-page-searchbar-input {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18%;
+    line-height: 27%;
+
+    color: #000000;
+
+    border: none;
+    background: #F2F2F2;
+    margin-left: 5.3%;
+    width: 87.5%;
+    height: 55%;
+    /* border: 1px solid black; */
+}
+
+.total-contacts-page-searchbar-input::placeholder {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 100%;
+    color: rgba(0, 0, 0, 0.8);
+    opacity: 0.5;
+
+}
+
+.total-contacts-page-searchbar-input:focus {
+    border: none;
+    outline: none;
+
+}
+
+
+.total-contacts-page-right-div-name {
+    /*position: absolute;
+     width: 194px;
+    height: 49px;
+    left: 255px;
+    top: 25px; */
+    margin-left: 1.6032%;
+
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32%;
+    line-height: 49%;
+    /* identical to box height */
+
+
+    color: #454545;
+
+    opacity: 0.8;
+}
+
+.total-contacts-page-userinfo-container-div {
+    width: 9.09%;
+    margin-left: 10.755%;
+    height: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.total-contacts-page-userinfo-img {
+    height: 100%;
+    /* width: 100%; */
+    /* border: 1px solid black; */
+}
+
+.total-contacts-page-userinfo-div {
+    /* margin-left: 8.824%; */
+    align-self: flex-end;
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.total-contacts-page-userinfo-username {
+    /* padding: 0px;
+    margin: 0px; */
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16%;
+    /* line-height: 24%; */
+
+    color: #000000;
+
+    opacity: 0.8;
+    width: calc(120px * var(--widthmultiplier));
+    /* border: 1px solid black; */
+}
+
+.total-contacts-page-userinfo-authority {
+    /* padding: 0px;
+    margin: 0px; */
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14%;
+    /* line-height: 21%; */
+
+    color: #000000;
+
+    opacity: 0.7;
+    /* border: 1px solid black; */
+}
+
+/* .total-contacts-page-all-contacts-line-div {
+    width: 100%;
+    height: 0px;
+    top: 8.7735%;
+
+    border: 2px solid #EAEAEA;
+} */
+
+.total-contacts-page-all-contacts-div {
+    /* position: absolute; */
+    /* width: 1449px;
+height: 898px; */
+    /* width: 83.9027%;
+height: 80.4%; */
+    width: 96.8%;
+    /* height: 80.4%; */
+    height: 87.867%;
+    left: 255px;
+    top: 124px;
+
+    background: #FBFBFB;
+    border-radius: calc(15px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+    /* border: 1px solid black; */
+
+}
+
+.total-contacts-page-all-contacts-buttons-container {
+    margin-top: calc(3px * var(--heightmultiplier));
+
+    width: 100%;
+    height: 8.91%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.total-contacts-page-btn-select-date {
+    /* margin-left: calc(20px * var(--widthmultiplier));*/
+    margin-left: 1.38%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 50%;
+    width: 11.663%;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 1px 1px calc(20px * var(--widthmultiplier)) rgba(0, 0, 0, 0.1);
+    border-radius: calc(10px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+}
+
+.total-contacts-page-btn-select-date:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px calc(20px * var(--widthmultiplier)) rgba(0, 0, 0, 1);
+}
+
+.total-contacts-page-btn-select-date-calender-img {
+    /* margin-left: calc(15px * var(--widthmultiplier));
+    width: calc(18px * var(--widthmultiplier)); */
+    margin-left: 8.876%;
+    width: calc(18px * var(--widthmultiplier));
+}
+
+.total-contacts-page-btn-select-date-name {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20%;
+    /* line-height: 30%; */
+
+    /* margin-left: calc(10px * var(--widthmultiplier)); */
+    margin-left: 5.92%;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.total-contacts-page-btn-select-date-downarrow-img {
+    /* margin-left: calc(6px * var(--widthmultiplier));
+    margin-right: calc(16px * var(--widthmultiplier));
+    margin-top: calc(4px * var(--heightmultiplier)); */
+    margin-left: 3.55%;
+    /* margin-right: 9.47%; */
+    /* margin-top: calc(4px * var(--heightmultiplier)); */
+    /* height: calc(7px * var(--heightmultiplier)); */
+    width: calc(15px * var(--widthmultiplier));
+    /* border: 1px solid black; */
+}
+
+.total-contacts-page-btn-filters {
+    /* margin-left: calc(30px * var(--widthmultiplier)); */
+    margin-left: 2.0704%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 50%;
+    /* width: fit-content; */
+    width: 9.455%;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 1px 1px calc(20px * var(--widthmultiplier)) rgba(0, 0, 0, 0.1);
+    border-radius: calc(10px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+}
+
+.total-contacts-page-btn-filters:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px calc(20px * var(--widthmultiplier)) rgba(0, 0, 0, 1);
+}
+
+.total-contacts-page-btn-filters-icon-img {
+    /* margin-left: calc(16px * var(--widthmultiplier));
+    width: calc(18px * var(--widthmultiplier)); */
+    margin-left: 11.68%;
+    width: calc(18px * var(--widthmultiplier));
+}
+
+.total-contacts-page-btn-filters-name {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18%;
+    /* line-height: 27px; */
+
+    color: #000000;
+
+    opacity: 0.8;
+    /* margin-left: calc(15px * var(--widthmultiplier)); */
+    margin-left: 10.95%;
+}
+
+.total-contacts-page-btn-filters-pipe-img {
+    /* margin-left: calc(7px * var(--widthmultiplier)); */
+    margin-left: 5.12%;
+    margin-right: 0px;
+    width: 0px;
+    /* height: calc(20px * var(--heightmultiplier)); */
+    height: 50%;
+
+    border: 2px solid #7D7D7D;
+    border-width: calc(1px * var(--widthmultiplier));
+    border-radius: calc(2px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+}
+
+.total-contacts-page-btn-filters-downarrow-img {
+    /* margin-left: calc(9px * var(--widthmultiplier));
+    margin-right: calc(17px * var(--widthmultiplier));
+    margin-top: calc(4px * var(--heightmultiplier)); */
+    margin-left: 6.57%;
+    /* margin-right: calc(17px * var(--widthmultiplier)); */
+    margin-top: calc(4px * var(--heightmultiplier));
+    /* height: calc(7px * var(--heightmultiplier)); */
+    width: calc(15px * var(--widthmultiplier));
+    /* border: 1px solid black; */
+}
+
+.total-contacts-page-btn-delete {
+    /* margin-left: calc(634px * var(--widthmultiplier)); */
+    margin-left: 43.9614%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 52.5%;
+    /* width: fit-content; */
+    width: 9.593%;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 1px 1px calc(20px * var(--widthmultiplier)) rgba(0, 0, 0, 0.1);
+    border-radius: calc(10px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+}
+
+.total-contacts-page-btn-delete:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px calc(20px * var(--widthmultiplier)) rgba(0, 0, 0, 1);
+}
+
+.total-contacts-page-btn-delete-icon-img {
+    /* margin-left: calc(27px * var(--widthmultiplier));
+    margin-right: calc(17px * var(--widthmultiplier)); */
+    margin-left: 19.425%;
+    margin-right: 13.67%;
+    /* margin-top: calc(10px * var(--heightmultiplier)); */
+    /* height: calc(7px * var(--heightmultiplier)); */
+    width: calc(15px * var(--widthmultiplier));
+    height: calc(16px * var(--heightmultiplier));
+}
+
+.total-contacts-page-btn-delete-name {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18%;
+    /* line-height: 27px; */
+
+    color: #000000;
+
+    opacity: 0.8;
+    /* margin-right: calc(27px * var(--widthmultiplier)); */
+    margin-right: 19.425%;
+}
+
+.total-contacts-page-btn-import {
+    /* margin-left: calc(10px * var(--widthmultiplier)); */
+    margin-left: 0.691%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 52.5%;
+    /* width: fit-content; */
+    width: 9.524%;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 1px 1px calc(20px * var(--widthmultiplier)) rgba(0, 0, 0, 0.1);
+    border-radius: calc(10px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+}
+
+.total-contacts-page-btn-import:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px calc(20px * var(--widthmultiplier)) rgba(0, 0, 0, 1);
+}
+
+.total-contacts-page-btn-import-icon-img {
+    /* margin-left: calc(30px * var(--widthmultiplier));
+    margin-right: calc(11.25px * var(--widthmultiplier)); */
+    margin-left: 21.74%;
+    margin-right: 7.971%;
+    /* margin-top: calc(10px * var(--heightmultiplier)); */
+    /* height: calc(7px * var(--heightmultiplier)); */
+    /* width: calc(15px * var(--widthmultiplier)); */
+    height: calc(18px * var(--heightmultiplier));
+}
+
+.total-contacts-page-btn-import-name {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18%;
+    /* line-height: 27px; */
+
+    color: #000000;
+
+    opacity: 0.8;
+    /* margin-right: calc(27px * var(--widthmultiplier)); */
+    margin-right: 18.84%;
+}
+
+.total-contacts-page-btn-export {
+    /* margin-left: calc(10px * var(--widthmultiplier)); */
+    margin-left: 0.691%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 52.5%;
+    /* width: fit-content; */
+    width: 9.593%;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 1px 1px calc(20px * var(--widthmultiplier)) rgba(0, 0, 0, 0.1);
+    border-radius: calc(10px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+}
+
+.total-contacts-page-btn-export:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px calc(20px * var(--widthmultiplier)) rgba(0, 0, 0, 1);
+}
+
+.total-contacts-page-btn-export-icon-img {
+    /* margin-left: calc(30px * var(--widthmultiplier));
+    margin-right: calc(11.25px * var(--widthmultiplier)); */
+    margin-left: 18.705%;
+    margin-right: 15.18%;
+    /* margin-top: calc(10px * var(--heightmultiplier)); */
+    /* height: calc(7px * var(--heightmultiplier)); */
+    /* width: calc(15px * var(--widthmultiplier)); */
+    height: calc(18px * var(--heightmultiplier));
+}
+
+.total-contacts-page-btn-export-name {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18%;
+    /* line-height: 27px; */
+
+    color: #000000;
+
+    opacity: 0.8;
+    /* margin-right: calc(27px * var(--widthmultiplier)); */
+    margin-right: 17.985%;
+}
+
+/* .total-contacts-page-all-contacts-file-input{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+} */
+
+.total-contacts-page-all-contacts-listdown-container {
+    width: 97.24%;
+    height: 90.24%;
+    margin-left: 1.38%;
+    /* border: 1px solid black; */
+}
+
+.total-contacts-page-all-contacts-listdown-index {
+    width: 100%;
+    height: 6.682%;
+
+    background: #B3DFFF;
+    box-shadow: inset -1px -1px 20px rgba(254, 134, 39, 0.1), inset 1px 1px 20px rgba(254, 134, 39, 0.1);
+    border-radius: calc(10px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+    display: flex;
+    align-items: center;
+    position: static;
+    font-size: 20%;
+    /* justify-content: space-around; */
+
+    color: #38322C;
+
+    /* opacity: 0.8; */
+}
+
+.total-contacts-page-checkbox {
+
+    position: absolute;
+    width: calc(21px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+    height: calc(21px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+    left: calc(290px * var(--widthmultiplier));
+    /* top: 226px; */
+
+    background: #FBF8F8;
+    border: 0.5px solid #2DA5FC;
+    border-radius: calc(3px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+}
+
+.total-contacts-page-checkbox:checked {
+    background: #2DA5FC;
+    border: 0.5px solid black;
+    border-radius: calc(3px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+}
+
+.total-contacts-page-listdown-index-name {
+
+    position: absolute;
+    left: calc(326px * var(--widthmultiplier));
+    /* left: 3.62%; */
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20%; */
+    /* line-height: 30px; */
+
+    /* /* color: #38322C; */
+
+    opacity: 0.8;
+    max-width: calc((458px - 326px - 15px) * var(--widthmultiplier));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.total-contacts-page-listdown-index-pipe {
+    /* margin-left: 5.749%; */
+    position: absolute;
+    left: calc(458px * var(--widthmultiplier));
+    width: 0px;
+    height: calc(25px * var(--heightmultiplier));
+    background: #7D7D7D;
+    border: 1px solid #7D7D7D;
+    border-width: calc(1px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+
+}
+
+.total-contacts-page-listdown-index-designation {
+    /* margin-left: 0.71%; */
+    position: absolute;
+    left: calc(468px * var(--widthmultiplier));
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20%; */
+    /* line-height: 30px; */
+
+    /* color: #38322C; */
+
+    opacity: 0.8;
+    /* margin-right: 2.8%; */
+    max-width: calc((634px - 468px - 15px) * var(--widthmultiplier));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+
+.total-contacts-page-listdown-index-sort-designation {
+    position: absolute;
+    left: calc(611px * var(--widthmultiplier));
+    height: calc(60px * var(--heightmultiplier));
+    /* height: 100%; */
+    width: calc(13px * var(--widthmultiplier));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.total-contacts-page-listdown-index-sortarrowdown-designation {
+    width: calc(10.5px * var(--widthmultiplier));
+    height: calc(5.22px * var(--heightmultiplier));
+    fill: #605750;
+    margin-top: calc(3px * var(--heightmultiplier));
+    margin-bottom: calc(3px * var(--heightmultiplier));
+}
+
+.total-contacts-page-listdown-index-sortarrowdown-designation:hover {
+    cursor: pointer;
+    width: calc(13px * var(--widthmultiplier));
+    height: calc(10px * var(--heightmultiplier));
+    /* background: #2DA5FC; */
+    fill: #2DA5FC;
+}
+
+.total-contacts-page-listdown-index-pipe-designation {
+    /* margin-left: 5.749%; */
+    position: absolute;
+    left: calc(634px * var(--widthmultiplier));
+    width: 0px;
+    height: calc(25px * var(--heightmultiplier));
+    background: #7D7D7D;
+    border: 1px solid #7D7D7D;
+    border-width: calc(1px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+}
+
+.total-contacts-page-listdown-index-company {
+    position: absolute;
+    left: calc(644px * var(--widthmultiplier));
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20%; */
+    /* line-height: 30px; */
+
+    /* color: #38322C; */
+
+    opacity: 0.8;
+    /* margin-left: 0.71%;
+    margin-right: 7.8%; */
+    max-width: calc((855px - 644px - 15px) * var(--widthmultiplier));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.total-contacts-page-listdown-index-sort-company {
+    position: absolute;
+    left: calc(834px * var(--widthmultiplier));
+    height: calc(60px * var(--heightmultiplier));
+    width: calc(13px * var(--widthmultiplier));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.total-contacts-page-listdown-index-sortarrowdown-company {
+    width: calc(10.5px * var(--widthmultiplier));
+    height: calc(5.22px * var(--heightmultiplier));
+    fill: #605750;
+    margin-top: calc(3px * var(--heightmultiplier));
+    margin-bottom: calc(3px * var(--heightmultiplier));
+}
+
+.total-contacts-page-listdown-index-sortarrowdown-company:hover {
+    cursor: pointer;
+    width: calc(13px * var(--widthmultiplier));
+    height: calc(6px * var(--heightmultiplier));
+    /* background: #2DA5FC; */
+    fill: #2DA5FC;
+}
+
+.total-contacts-page-listdown-index-pipe-company {
+    /* margin-left: 0.7%; */
+    position: absolute;
+    left: calc(855px * var(--widthmultiplier));
+    width: 0px;
+    height: calc(25px * var(--heightmultiplier));
+    background: #7D7D7D;
+    border: 1px solid #7D7D7D;
+    border-width: calc(1px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+
+}
+
+
+.total-contacts-page-listdown-index-industry {
+    position: absolute;
+    left: calc(865px * var(--widthmultiplier));
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20%; */
+    /* line-height: 30px; */
+
+    /* color: #38322C; */
+
+    opacity: 0.8;
+    /* margin-left: 0.71%;
+    margin-right: 6.53%;  */
+    max-width: calc((1029px - 865px - 15px) * var(--widthmultiplier));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.total-contacts-page-listdown-index-sort-industry {
+    position: absolute;
+    left: calc(1029px * var(--widthmultiplier));
+    height: calc(60px * var(--heightmultiplier));
+    width: calc(13px * var(--widthmultiplier));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.total-contacts-page-listdown-index-sortarrowdown-industry {
+    width: calc(10.5px * var(--widthmultiplier));
+    height: calc(5.22px * var(--heightmultiplier));
+    fill: #605750;
+    margin-top: calc(3px * var(--heightmultiplier));
+    margin-bottom: calc(3px * var(--heightmultiplier));
+}
+
+.total-contacts-page-listdown-index-sortarrowdown-industry:hover {
+    cursor: pointer;
+    width: calc(13px * var(--widthmultiplier));
+    height: calc(6px * var(--heightmultiplier));
+    /* background: #2DA5FC; */
+    fill: #2DA5FC;
+}
+
+.total-contacts-page-listdown-index-pipe-industry {
+    /* margin-left: 0.7%; */
+    position: absolute;
+    left: calc(1050px * var(--widthmultiplier));
+    width: 0px;
+    height: calc(25px * var(--heightmultiplier));
+    background: #7D7D7D;
+    border: 1px solid #7D7D7D;
+    border-width: calc(1px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+
+}
+
+.total-contacts-page-listdown-index-email {
+    position: absolute;
+    left: calc(1060px * var(--widthmultiplier));
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20%; */
+    /* line-height: 30px; */
+
+    /* color: #38322C; */
+
+    opacity: 0.8;
+    /* margin-left: 0.71%;
+    margin-right: 12.927%; */
+    max-width: calc((1300px - 1060px - 15px) * var(--widthmultiplier));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.total-contacts-page-listdown-index-pipe-email {
+    /* margin-left: 0.7%; */
+    position: absolute;
+    left: calc(1300px * var(--widthmultiplier));
+    width: 0px;
+    height: calc(25px * var(--heightmultiplier));
+    background: #7D7D7D;
+    border: 1px solid #7D7D7D;
+    border-width: calc(1px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+
+}
+
+.total-contacts-page-listdown-index-phone {
+    position: absolute;
+    left: calc(1310px * var(--widthmultiplier));
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20%; */
+    /* line-height: 30px; */
+
+    /* color: #38322C; */
+
+    opacity: 0.8;
+    /* margin-left: 0.71%;
+    margin-right: 2.707%; */
+    max-width: calc((1484px - 1310px - 15px) * var(--widthmultiplier));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.total-contacts-page-listdown-index-pipe-phone {
+    /* margin-left: 0.7%; */
+    position: absolute;
+    left: calc(1484px * var(--widthmultiplier));
+    width: 0px;
+    height: calc(25px * var(--heightmultiplier));
+    background: #7D7D7D;
+    border: 1px solid #7D7D7D;
+    border-width: calc(1px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+
+}
+
+.total-contacts-page-listdown-index-country {
+    position: absolute;
+    left: calc(1494px * var(--widthmultiplier));
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20%; */
+    /* line-height: 30px; */
+    /* 
+    color: #38322C; */
+
+    opacity: 0.8;
+    /* margin-left: 0.71%;
+    margin-right: 2.068%; */
+    max-width: calc((1601px - 1494px - 15px) * var(--widthmultiplier));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.total-contacts-page-listdown-index-pipe-country {
+    /* margin-left: 0.7%; */
+    position: absolute;
+    left: calc(1601px * var(--widthmultiplier));
+    width: 0px;
+    height: calc(25px * var(--heightmultiplier));
+    background: #7D7D7D;
+    border: 1px solid #7D7D7D;
+    border-width: calc(1px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+
+}
+
+.total-contacts-page-listdown-index-action {
+    position: absolute;
+    left: calc(1609px * var(--widthmultiplier));
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20%; */
+    /* line-height: 30px; */
+
+    /* color: #38322C; */
+
+    opacity: 0.8;
+    /* margin-left: 0.71%;
+    margin-right: 1.42%; */
+}
+
+.total-contacts-page-listdown-data2 {
+    height: 8.4066%;
+    width: 100%;
+    background: rgba(178, 223, 255, 0.31);
+    border-radius: calc(10px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+    display: flex;
+    align-items: center;
+    /* position: static; */
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: cal(100% * 18 / 20); */
+    font-size: 18%;
+    /* line-height: 27px; */
+
+    color: #000000;
+
+    /* opacity: 0.8; */
+}
+
+.total-contacts-page-listdown-data {
+
+    height: 8.4066%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: calc(10px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+    display: flex;
+    align-items: center;
+    position: static;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: cal(100% * 18 / 20); */
+    /* line-height: 27px; */
+    font-size: 18%;
+
+    color: #000000;
+
+    /* opacity: 0.8; */
+
+}
+
+
+
+.total-contacts-page-searchbar-form {
+    width: 36.88%;
+    height: 51.03%;
+    margin-left: 29.125%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    background: #F2F2F2;
+    border-radius: calc(6px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+}
+
+.total-contacts-page-searchbar-form:hover {
+    background: white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+}
+
+.total-contacts-page-searchbar-img {
+    /* height: calc(18px * var(--heightmultiplier)); */
+    width: calc(18px * var(--widthmultiplier));
+    height: calc(18px * var(--widthmultiplier));
+    margin-left: 3.64%;
+}
+
+.total-contacts-page-searchbar-input:focus {
+    background: white;
+    /* box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1); */
+}
+
+.total-contacts-page-search-suggestion-box {
+    display: none;
+    position: absolute;
+    /* height: fit-content; */
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 5;
+    /* height: 100px;
+    width: 100px; */
+    background-color: white;
+    height: fit-content;
+}
+
+.search-suggestions-page-container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 4;
+}
+
+.total-contacts-page-all-footer-page-navigator-container {
+    position: absolute;
+    right: calc(24px * var(--widthmultiplier));
+    top: calc(1042px * var(--heightmultiplier));
+    height: calc(24px * var(--heightmultiplier));
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.total-contacts-page-all-footer-page-navigator-arrow-box-prev {
+    width: calc(20px * var(--widthmultiplier));
+    height: calc(20px * var(--heightmultiplier));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: calc(5px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+    margin-right: calc(10px * var(--widthmultiplier));
+}
+.total-contacts-page-all-footer-page-navigator-arrow-box-prev:hover{
+    cursor: pointer;
+}
+.total-contacts-page-all-footer-page-navigator-arrow-box-next {
+    width: calc(20px * var(--widthmultiplier));
+    height: calc(20px * var(--heightmultiplier));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: calc(5px * (var(--heightmultiplier) + var(--widthmultiplier))/2);
+    margin-left: calc(10px * var(--widthmultiplier));
+
+}
+.total-contacts-page-all-footer-page-navigator-arrow-box-next:hover{
+    cursor: pointer;
+}
+
+.total-contacts-page-all-footer-page-navigator-arrow-img {
+    width: calc(13.31px * var(--widthmultiplier));
+    height: calc(8.22px * var(--heightmultiplier));
+}
+
+
+.total-contacts-page-all-footer-page-navigator-num {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16%;
+    /* line-height: 24px; */
+
+    color: #CBCBCB;
+    margin-left: calc(11px * var(--widthmultiplier));
+    margin-right: calc(11px * var(--widthmultiplier));
+}
+.total-contacts-page-all-footer-page-navigator-num:hover{
+    cursor: pointer;
+}
+.total-contacts-page-all-footer-page-navigator-num-active{
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16%;
+    /* line-height: 24px; */
+
+    color: #2DA5FC;
+    margin-left: calc(11px * var(--widthmultiplier));
+    margin-right: calc(11px * var(--widthmultiplier));
+}
